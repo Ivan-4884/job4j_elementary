@@ -8,14 +8,14 @@ public class MultiMax {
                 result = first;
             } else {
                 result = third;
-            }
+              }
         } else {
             if (second > third) {
                 result = second;
             } else {
                 result = second;
-            }
-        }
+              }
+          }
         return result;
     }
 

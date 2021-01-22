@@ -1,12 +1,13 @@
 package ru.job4j.array;
-
+/*
+метод SwitchArray.swap для int был реализован. но написание метода для замен ячеек массива из строк вроде не было в упражнениях
+ */
 public class Defragment {
     public static String[] compress(String[] array) {
         for (int nullIndex = 0; nullIndex < array.length; nullIndex++) {
             if (array[nullIndex] == null) {
                 for (int notNullIndex = nullIndex + 1; notNullIndex < array.length; notNullIndex++) {
                     if (array[notNullIndex] != null) {
-                        //мотод SwitchArray.swap для int был реализован. но написание метода для замен ячеек массива из строк вроде не было в упражнениях
                         array[nullIndex] = array[notNullIndex];
                         array[notNullIndex] = null;
                         break;

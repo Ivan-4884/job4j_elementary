@@ -1,4 +1,9 @@
+/**
+ * for (int index = 0; index < numbers.length; index++)
+ * равен for (int number : numbers)
+ */
 package ru.job4j.array;
+
 
 public class ArrayLoop {
     public static void main(String[] args) {
@@ -6,7 +11,6 @@ public class ArrayLoop {
         for (int index = 0; index < numbers.length; index++) {
             numbers[index] = index * 2 + 3;
         }
-        //for (int index = 0; index < numbers.length; index++) {
         for (int number : numbers) {
             System.out.println(number);
         }

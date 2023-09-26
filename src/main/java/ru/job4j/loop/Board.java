@@ -1,8 +1,5 @@
 package ru.job4j.loop;
 
-/**
- * //или нужно всётаки делать через boolean - (x % 2 == 0) ?
- */
 public class Board {
     public static void paint(int width, int height) {
         for (int row = 0; row < height; row++) {

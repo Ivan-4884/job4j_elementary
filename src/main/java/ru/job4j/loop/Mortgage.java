@@ -5,8 +5,8 @@ public class Mortgage {
         int year = 0;
         double damount = amount;
         while (damount > 0) {
-            double proc = damount * percent; //годовой процент от суммы кредита
-            damount = damount + proc - salary; //остаток кредита
+            double proc = damount * percent;
+            damount = damount + proc - salary;
             year += 1;
         }
         return year;
